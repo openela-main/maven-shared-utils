@@ -2,7 +2,7 @@
 
 Name:           maven-shared-utils
 Version:        3.3.4
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        Maven shared utility classes
 License:        ASL 2.0
 URL:            https://maven.apache.org/shared/maven-shared-utils
@@ -62,6 +62,9 @@ rm src/test/java/org/apache/maven/shared/utils/CaseTest.java
 %license LICENSE NOTICE
 
 %changelog
+* Mon Feb 05 2024 Mikolaj Izdebski <mizdebsk@redhat.com> - 3.3.4-6
+- Rebuild to regenerate auto-requires
+
 * Thu Jul 21 2022 Fedora Release Engineering <releng@fedoraproject.org> - 3.3.4-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_37_Mass_Rebuild
 
